@@ -12,7 +12,6 @@ from fleming import fleming
 from .processes import ProcessMonitor
 
 import logging
-daiquiri.setup(level=logging.INFO)
 
 
 class Cron:
